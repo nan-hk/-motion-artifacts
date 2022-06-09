@@ -3,18 +3,20 @@
 
 SPNet output with different loss function
 
-GT Image
 
-![GT](/GT_1500.png)
+Introduce artefacts in RGB 
+1).  GT Image  .............. 2)  With SSIM Loss. ............ 3)      With MSE Loss  ............. 4) With Structure Loss (Original SPNet Loss) 
 
-With SSIM Loss
+![GT](/GT_1500.png) ... ![SSIM](/corrupted_RGB_1500_SSIMLoss.png) .... ![MSE](/corrupted_RGB_1500_MSELoss.png). .... ![Structure](/corrupted_RGB_1500_Structure_loss.png)
 
-![SSIM](/corrupted_RGB_1500_SSIMLoss.png)
 
-With MSE Loss
 
-![MSE](/corrupted_RGB_1500_MSELoss.png)
 
-With Structure Loss (Original SPNet Loss)
 
-![Structure](/corrupted_RGB_1500_Structure_loss.png)
+
+
+
+
+
+
+
